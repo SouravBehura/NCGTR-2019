@@ -2480,6 +2480,109 @@ ul {
   background-position: center;
 }
 
+.banner_part1 {
+  position: relative;
+  background-image: url(../img/sac-01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 9, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+.banner_part1 .banner_text {
+  display: table;
+  width: 100%;
+  height: 900px;
+}
+
+/* line 13, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+.banner_part1 .banner_text .banner_text_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 13, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+  .banner_part1 .banner_text .banner_text_iner {
+    height: 650px;
+  }
+}
+
+/* line 20, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+.banner_part1 .banner_text h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  /* line 9, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+  .banner_part1 .banner_text {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 9, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+  .banner_part1 .banner_text {
+    height: 650px;
+  }
+}
+
+/* line 33, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+.banner_part1 .banner_text h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 24px 0 29px;
+  line-height: 60px;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  /* line 33, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+  .banner_part1 .banner_text h1 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 33, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+  .banner_part1 .banner_text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+}
+
+/* line 52, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+.banner_part1 .banner_text h1 span {
+  color: #ff4800;
+}
+
+/* line 57, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+.banner_part1 .banner_text p {
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  /* line 57, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+  .banner_part1 .banner_text p {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 57, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
+  .banner_part1 .banner_text p {
+    padding-right: 0;
+  }
+}
+
 /* line 9, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_banner.scss */
 .banner_part .banner_text {
   display: table;
